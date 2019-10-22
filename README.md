@@ -13,8 +13,8 @@ Backend of the project created from scratch to insert a physical store in the di
 
  #### PostgreSQL and MongoDB
 
- banco de dados escolhido para ser usado nesse projeto com <br />
- containers separados criados no docker
+ database chosen for use in this project with <br />
+ separate containers created in docker
 
  #### Folder structure end environment setting
 
@@ -25,8 +25,8 @@ Backend of the project created from scratch to insert a physical store in the di
 
  #### Sequelize e sequelize-cli configuration
 
- - sequelize is a database orm, that's where I communicate with the database by writing in javascript <br />
- and sequelize is responsible for translating this language to sql,
+ - sequelize is a database orm, that's where I communicate with the database by writing <br />
+ in javascript and sequelize is responsible for translating this language to sql
  - sequelize-cli is a command interface that helps you create migrations
 
  #### Technologies used
