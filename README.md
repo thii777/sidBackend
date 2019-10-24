@@ -5,8 +5,10 @@ Backend of the project created from scratch to insert a physical store in the di
 <h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Nodejs-9.11.1-blue.svg?colorB=90c53f">
-  <img src="https://img.shields.io/badge/Express-4.16.3-blue.svg?colorB=47535e">
+  <img src="https://img.shields.io/badge/Nodejs-10.16.0-blue.svg?colorB=90c53f">
+  <img src="https://img.shields.io/badge/Express-4.17.1-blue.svg?colorB=90c53f">
+  <img src="https://img.shields.io/badge/Sequelize-5.21.1-blue.svg?colorB=3f76c5">
+  <img src="https://img.shields.io/badge/Postgres-7.12.1-blue.svg?colorB=59add9">
 </p>
 
 <hr>
@@ -29,13 +31,18 @@ Backend of the project created from scratch to insert a physical store in the di
  in javascript and sequelize is responsible for translating this language to sql
  - sequelize-cli is a command interface that helps you create migrations
 
+ #### Product table creation in database
+
+ I created a table of the description and price of products <br />
+ that will use json to integrate with the frontend.
+
  #### Technologies used
 
  - [docker](https://www.docker.com/)
  - [postgresql](https://www.postgresql.org/)
  - [mondodb](https://www.mongodb.com/)
  - [postbird](https://electronjs.org/apps/postbird/)
- - [mondoacompass](https://www.mongodb.com/products/compass)
+ - [mongocompass](https://www.mongodb.com/products/compass)
 
  - [express](https://expressjs.com/)
  - [sequelize](https://sequelize.org/)
