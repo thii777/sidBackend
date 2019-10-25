@@ -1,7 +1,9 @@
 import { Router } from 'express';
 
+import ProductController from './app/controllers/ProductController';
+
 const routes = new Router();
 
-routes.get('/', (req, res) => res.json({ message: 'Sid Surf Store' }));
+routes.post('/products', ProductController.store);
 
 export default routes;

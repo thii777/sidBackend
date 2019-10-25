@@ -1,4 +1,7 @@
-## 🛍️ Ecommerce store Sid Surf Store
+
+<h1 align="center">
+🛍️ Ecommerce store Sid Surf Store
+<h1>
 
 <h3 align="center">
 Backend of the project created from scratch to insert a physical store in the digital market
