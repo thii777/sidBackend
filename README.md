@@ -1,6 +1,6 @@
 ## 🛍️ Ecommerce store Sid Surf Store
 
-<h3>
+<h3 align="center">
 Backend of the project created from scratch to insert a physical store in the digital market
 <h3>
 
@@ -40,7 +40,7 @@ Backend of the project created from scratch to insert a physical store in the di
 
  - [docker](https://www.docker.com/)
  - [postgresql](https://www.postgresql.org/)
- - [mondodb](https://www.mongodb.com/)
+ - [mongodb](https://www.mongodb.com/)
  - [postbird](https://electronjs.org/apps/postbird/)
  - [mongocompass](https://www.mongodb.com/products/compass)
 
