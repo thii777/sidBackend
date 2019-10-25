@@ -39,6 +39,15 @@ Backend of the project created from scratch to insert a physical store in the di
  I created a table of the description and price of products <br />
  that will use json to integrate with the frontend.
 
+ #### MVC
+
+ Model and controller creation for products
+
+ #### Uploads image
+
+ I decided to create a table just to save the ID of the images that will be stored on the server.
+ This will use multer to work with multipart/form-data and create a tmp to store as images.
+
  #### Technologies used
 
  - [docker](https://www.docker.com/)
@@ -50,6 +59,8 @@ Backend of the project created from scratch to insert a physical store in the di
  - [express](https://expressjs.com/)
  - [sequelize](https://sequelize.org/)
  - [sequelize-cli](https://github.com/sequelize/cli)
+
+ - [multer](https://www.npmjs.com/package/multer)
 
 ## License
 
