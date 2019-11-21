@@ -1,6 +1,6 @@
 import Sequelize, { Model } from 'sequelize';
 
-class Product extends Model {
+class Accessories extends Model {
     static init(sequelize) {
         super.init(
             {
@@ -16,7 +16,7 @@ class Product extends Model {
                 url: {
                     type: Sequelize.VIRTUAL,
                     get() {
-                        return `http://localhost:3333/products/${this.image}`;
+                        return `http://localhost:3333/accessories/${this.image}`;
                     },
                 },
             },
@@ -28,4 +28,4 @@ class Product extends Model {
     }
 }
 
-export default Product;
+export default Accessories;

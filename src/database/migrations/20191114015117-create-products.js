@@ -7,16 +7,40 @@ module.exports = {
                 autoIncrement: true,
                 primaryKey: true,
             },
-            product_name: {
+            image: {
                 type: Sequelize.STRING,
                 allowNull: false,
             },
-            description: {
+            name: {
                 type: Sequelize.STRING,
                 allowNull: false,
             },
             price: {
                 type: Sequelize.DECIMAL,
+                allowNull: false,
+            },
+            amount: {
+                type: Sequelize.INTEGER,
+                allowNull: false,
+            },
+            category: {
+                type: Sequelize.STRING,
+                allowNull: false,
+            },
+            brand: {
+                type: Sequelize.STRING,
+                allowNull: false,
+            },
+            size: {
+                type: Sequelize.STRING,
+                allowNull: false,
+            },
+            color: {
+                type: Sequelize.STRING,
+                allowNull: false,
+            },
+            description: {
+                type: Sequelize.STRING,
                 allowNull: false,
             },
             created_at: {

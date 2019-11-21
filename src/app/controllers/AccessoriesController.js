@@ -1,6 +1,6 @@
-import Product from '../models/Product';
+import Accessories from '../models/Accessories';
 
-class ProductController {
+class AccessoriesController {
     async store(req, res) {
         const { filename } = req.file;
         const {
@@ -14,7 +14,7 @@ class ProductController {
             description,
         } = req.body;
 
-        const product = await Product.create({
+        const product = await Accessories.create({
             image: filename,
             name,
             price,
@@ -31,7 +31,7 @@ class ProductController {
     async index(req, res) {
         const { id } = req.params;
 
-        const product = await Product.findAll({ id });
+        const product = await Accessories.findAll({ id });
 
         return res.json(product);
 
@@ -63,10 +63,10 @@ class ProductController {
     async show(req, res) {
         const { id } = req.params;
 
-        const amount = await Product.findByPk(id);
+        const amount = await Accessories.findByPk(id);
 
         return res.json(amount);
     }
 }
 
-export default new ProductController();
+export default new AccessoriesController();
